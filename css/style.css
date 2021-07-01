@@ -1,0 +1,64 @@
+body {
+  margin-top: 93px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.9; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #6AAFB7; }
+    .navbar .nav-item .nav-link:hover {
+      color: #bf313f; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#HomeID {
+  background: url("../img/g.jpg");
+  min-height: 600px;
+  position: relative; }
+  #HomeID .primary-overlay {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #HomeID img {
+    margin-top: 93px;
+    margin-left: 200px; }
+
+#subID {
+  background: #58585a; }
+
+#PortfolioID card-body img {
+  width: 100px;
+  height: 100px; }
+
+#PortfolioID img {
+  margin-top: -55px;
+  width: 100px;
+  height: 100px; }
+
+#PortfolioID .fa {
+  font-size: 25px; }
+
+#PortfolioID .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #PortfolioID .card:hover .fa {
+    color: #fff; }
+
+#footerID .l {
+  font-size: 14px;
+  color: #333; }
+
+#footerID .aa {
+  color: #333; }
+
+@media (max-width: 576px) {
+  #HomeID h1 {
+    font-size: 4rem; } }
